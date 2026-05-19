@@ -126,7 +126,7 @@ This repository verifies that result from first principles using only the supers
 
 ## Paper
 
-A full write-up is available in [`Feigenbaum_Universality_Sine_Map.docx`](Feigenbaum_Universality_Sine_Map.docx).
+
 
 -----
 
