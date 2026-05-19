@@ -23,7 +23,7 @@ f^(2^n)(0.5; r) = 0.5
 The Newton iteration is:
 def superstable_r(n_doublings, r0=0.8655):
    r = r0
-   for _ in range(50):
+   for _ in range(50):[
        x, dxdr = 0.5, 0.0
        for _ in range(2**n_doublings):
            dxdr = sin(pi*x) + r*pi*cos(pi*x)*dxdr
